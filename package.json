@@ -1,0 +1,35 @@
+{
+    "name": "multi-proxy-server",
+    "main": "index.js",
+    "types": "index.d.ts",
+    "version": "1.0.0",
+    "description": "A lightweight, high-performance Node.js proxy solution that multiplexes HTTP and SOCKS5 protocols onto a single port.",
+    "scripts": {
+        "build": "tsc"
+    },
+    "keywords": [
+        "proxy",
+        "proxy-server",
+        "http-proxy",
+        "socks5",
+        "socks-proxy",
+        "socks5-server"
+    ],
+    "homepage": "https://github.com/dev-swarup/multi-proxy-server",
+    "bugs": {
+        "url": "https://github.com/dev-swarup/multi-proxy-server/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dev-swarup/multi-proxy-server.git"
+    },
+    "dependencies": {
+        "@pondwader/socks5-server": "^1.0.10"
+    },
+    "devDependencies": {
+        "typescript": "^6.0.3",
+        "@types/node": "^25.6.2"
+    },
+    "license": "MIT",
+    "author": "Swarup Banerjee"
+}
