@@ -24,6 +24,7 @@
         "url": "git+https://github.com/dev-swarup/multi-proxy-server.git"
     },
     "dependencies": {
+        "socks": "^2.8.9",
         "@pondwader/socks5-server": "^1.0.10"
     },
     "devDependencies": {
