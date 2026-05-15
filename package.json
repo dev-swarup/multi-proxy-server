@@ -4,6 +4,11 @@
     "types": "index.d.ts",
     "version": "1.0.0",
     "description": "A lightweight, high-performance Node.js proxy solution that multiplexes HTTP and SOCKS5 protocols onto a single port.",
+    "files": [
+        "LICENSE",
+        "**/*.js",
+        "**/*.d.ts"
+    ],
     "scripts": {
         "build": "tsc"
     },
