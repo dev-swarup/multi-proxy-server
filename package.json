@@ -2,10 +2,12 @@
     "name": "multiplex-proxy",
     "main": "index.js",
     "types": "index.d.ts",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A lightweight, high-performance Node.js proxy solution that multiplexes HTTP and SOCKS5 protocols onto a single port.",
     "files": [
         "LICENSE",
+        "README.md",
+        
         "**/*.js",
         "**/*.d.ts"
     ],
